@@ -3,6 +3,9 @@
 .SYNOPSIS
 A script for fetching lunchmenu for DEG16
 
+.DESCRIPTION
+This script fetches the lunchmenu for DEG16. By default it will fetch todays menu. By using parameter `-All` you can fetch the menu for the whole week.
+
 .NOTES
 Filename:   Get-Lunchmenu.ps1
 Author:     Mads Moi-Aune <mads@moiaune.no>
