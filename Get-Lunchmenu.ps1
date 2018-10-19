@@ -1,3 +1,26 @@
+<#
+
+.SYNOPSIS
+A script for fetching lunchmenu for DEG16
+
+.NOTES
+Filename:   Get-Lunchmenu.ps1
+Author:     Mads Moi-Aune <mads@moiaune.no>
+
+.PARAMETER All
+Will fetch the menu for the whole week
+
+.EXAMPLE
+./Get-Lunchmenu -All
+
+.EXAMPLE
+./Get-Lunchmenu
+
+.LINK
+Github repo: https://github.com/madsaune/ps-deg16-lunchmenu
+
+#>
+
 Param(
     [Switch] $All
 )
